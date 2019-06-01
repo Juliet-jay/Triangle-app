@@ -1,4 +1,9 @@
-
+.cent{
+  display: block;
+  flex-direction: row;
+  text-align: center;
+  padding-right: 80%;
+}
  .container{
    background-repeat: no-repeat;
    background-size: cover;
