@@ -1,10 +1,8 @@
-.cent{
-  display: block;
-  flex-direction: row;
-  text-align: center;
-}
+
  .container{
-   background-image:
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image:url("https://media3.giphy.com/media/GVQnMC1w0TrNK/giphy.gif");
  }
 
 
@@ -13,7 +11,14 @@
 
 }
 .card-body{
-  padding top :10%;
-  padding-bottom: 17%
+  padding top :60%;
+  padding-bottom:22%
 
+}
+.jumbotron{
+  background-color: transparent;
+  font-weight: bolder;
+}
+body{
+  color:white;
 }
