@@ -8,15 +8,22 @@ var c= parseInt(document.getElementById("c").value);
 if(a===b && b===c && c===a){
          alert("equilateral Triangle");
 }
-else if(a===b && a + b > c || b===c && b + c > a || a===c && a + c >b){
+else if(a==b && a + b > c || b==c && b + c > a || a== c && a + c >b){
         alert("isosceles triangle");
 }
-else if(a===b || b=== c || c=== a && a + c>d || b + c >a){
+else if(a!==b && b!==c && c!==a && a + c>b && b + c >a && a+b>c){
         alert("scalene triangle");
 }
-else if (a + b <= c || b + c <= a || a + c <= b){
+else if (a + b <= c ){
         alert("not a triangle");
 }
+else if(b + c <= a ){
+  alert("not a triangle");
+}
+else if(a + c <= b){
+  alert("not a triangle");
+}
+
 else (alert("input a valid integer"))
 
 }
