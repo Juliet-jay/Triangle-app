@@ -35,3 +35,6 @@ body{
 .green{
   color: green;
 }
+a{
+  text-decoration: none;
+}
